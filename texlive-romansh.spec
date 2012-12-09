@@ -47,3 +47,12 @@ support of Romansh either with babel or with polyglossia.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120413-2
++ Revision: 813744
+- Update to latest release.
+- Import texlive-romansh
+- Import texlive-romansh
+
